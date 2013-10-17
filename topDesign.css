@@ -1,0 +1,70 @@
+@import url(//fonts.googleapis.com/css?family=PT+Serif);
+body{
+    background:#3e3e3e;
+}
+img{
+    max-width:100%;
+}
+header, h1, h2{
+    font-family: 'PT Serif', serif;
+}
+h1{
+    font-size:38px;
+}
+h2{
+    font-size:28px;
+}
+header{
+    width:100%;
+    background: #999999;
+}
+nav{
+    margin:auto;
+    max-width:95%;
+}
+
+#head{
+    width:400px;
+    opacity:0.7;
+    margin-top:200px;
+    margin-left:10%;
+    padding:10px;
+    position:absolute;
+    background:white;    
+}
+
+main{
+    margin:auto;
+    max-width: 95%;
+    overflow:hidden;
+}
+
+#mainContent{
+    width:100%;
+    float:left;
+}
+section{
+    width:94%;
+    margin:0.5%;
+    padding:0.5%;
+    background:white;
+}
+    #mainContent article {
+        float:left;
+        width:30%;
+        padding:0.5%;
+        margin:0.5%;
+        background:white;
+    }
+    
+footer{
+    margin:auto;
+    clear:both;
+    max-width: 100%;
+    background:blue;
+}
+footer section{
+    margin:auto;
+    max-width:95%;
+    background:white;
+}

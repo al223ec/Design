@@ -1,0 +1,48 @@
+@import url(//fonts.googleapis.com/css?family=Titillium+Web:900);
+
+@font-face {
+    font-family: 'bonvenocflight';
+    src: url('font/BonvenoCF-Light-webfont.eot');
+    src: url('font/BonvenoCF-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/BonvenoCF-Light-webfont.woff') format('woff'),
+         url('font/BonvenoCF-Light-webfont.ttf') format('truetype'),
+         url('font/BonvenoCF-Light-webfont.svg#bonvenocflight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+main, header, aside, footer {
+    border:1px solid;
+}
+
+header, h1, h2, h3{
+    font-family: 'Titillium Web', sans-serif;
+    /*font-family: 'bonvenocflight';*/
+    
+}
+header {
+    float:left;
+    text-align:right;
+    font-size: 48px;
+    word-wrap: break-word;
+    max-width:15%;
+    background:white;
+    height:600px;
+}
+
+nav {
+    text-align:center;
+    font-size:50%;
+    overflow:hidden;
+    height:100%;
+}
+
+nav li a{
+    display:block;
+    text-decoration:none;
+}
+
+nav li a:hoover{
+    background:#999999;
+}
